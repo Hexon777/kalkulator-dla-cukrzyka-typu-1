@@ -1,0 +1,29 @@
+body{
+    background-color: cyan;
+}
+
+input{
+    background-color: rgb(200, 200, 255);
+}
+
+.operator{
+    background-color: rgb(38, 255, 85);
+}
+
+button:hover{
+    background-color: rgb(158, 255, 179);
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.click  {
+    background-color: rgb(38, 255, 85);
+    font-size: 20px;
+    margin-top: 600px;
+}
