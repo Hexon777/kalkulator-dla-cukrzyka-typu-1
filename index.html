@@ -11,19 +11,18 @@
 </head>
 <body class="center">
     <form id="Kalkulator">
-        <input type="text" id="kcal" placeholder="Kalorie"/>
         <h3>Węglowodany:</h3>
         <input type="text" id="w1" placeholder="Węglowodany"/>
-        <input type="text" id="rw" placeholder="=" disabled="disabled" />
-        <button class="operator" type="button" onclick="Calculate_w(this.innerHTML)">Wenglowodany Wynik</button>
+        <input type="text" id="rw" placeholder="wynik" disabled="disabled"/>
         <h3>Białko:</h3>
         <input type="text" id="b1" placeholder="Białko"/>
-        <input type="text" id="rb" placeholder="=" disabled="disabled" />
-        <button class="operator" type="button" onclick="Calculate_b(this.innerHTML)">Bialko Wynik</button>
+        <input type="text" id="rb" placeholder="wynik" disabled="disabled" />
         <h3>Tłuszcz:</h3>
         <input type="text" id="t1" placeholder="Tłuszcz"/>
-        <input type="text" id="rt" placeholder="=" disabled="disabled" />
-        <button class="operator" type="button" onclick="Calculate_t(this.innerHTML)">Tluszcz Wynik</button>
+        <input type="text" id="rt" placeholder="wynik" disabled="disabled" />
+        <h3>wynik:</h3>
+        <button class="operator" type="button" onclick="Calculate(this.innerHTML)">Wynik</button>
+        <input type="text" id="kcal" placeholder="Kalorie" disabled="disabled" />
     </form>
 </body>
 </html>
