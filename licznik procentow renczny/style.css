@@ -6,6 +6,10 @@ input{
     border-radius: 5px;
 }
 
+body {
+    background-color: slateblue;
+}
+
 button:hover{
     background-color: rgb(214, 255, 223);
     border-radius: 5px;

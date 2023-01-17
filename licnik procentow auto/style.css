@@ -2,6 +2,10 @@ input{
     background-color: rgb(200, 200, 255);
 }
 
+body {
+    background-color: slateblue;
+}
+
 .operator{
     border-radius: 5px;
 }
