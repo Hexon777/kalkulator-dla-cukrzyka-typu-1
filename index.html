@@ -2,67 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="app.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icon.ico">
-    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body class="center">
-    <div name="Licznik procętów">
-        <form id="Kalkulator">
-        <h3>Węglowodany:</h3>
-        <input type="number" id="w1" placeholder="Węglowodany"/>
-        <input type="number" id="rw" placeholder="wynik" disabled="disabled"/>
-        <h3>Białko:</h3>
-        <input type="number" id="b1" placeholder="Białko"/>
-        <input type="number" id="rb" placeholder="wynik" disabled="disabled" />
-        <h3>Tłuszcz:</h3>
-        <input type="number" id="t1" placeholder="Tłuszcz"/>
-        <input type="number" id="rt" placeholder="wynik" disabled="disabled" />
-        <h3>wynik:</h3>
-        <button class="operator" type="button" onclick="Calculate(this.innerHTML)">Wynik</button>
-        <input type="number" id="kcal" placeholder="Kalorie" disabled="disabled" />
-    </form>
     <br>
     <br>
     <br>
-    </div>
-    <div name="bolus">
-        <from id="bolus">
-            <input type="number" id="ddi" placeholder="DDI">
-            <h5>współczynnniki węglowodanowe</h5>
-            <input type="number" id="11" placeholder="od">
-            <input type="number" id="12" placeholder="do">
-            <br>
-            <input type="number" id="a" placeholder="g/h">
-            <input type="number" id="a" placeholder="Węglowodany">
-            <hr>
-            <input type="number" id="a" placeholder="od">
-            <input type="number" id="a" placeholder="do">
-            <br>
-            <input type="number" id="b" placeholder="g/h">
-            <input type="number" id="a" placeholder="Węglowodany">
-            <hr> 
-            <input type="number" id="a" placeholder="od">
-            <input type="number" id="a" placeholder="do">
-            <br>
-            <input type="number" id="c" placeholder="g/h"> 
-            <input type="number" id="a" placeholder="Węglowodany">
-            <hr>
-            <input type="number" id="a" placeholder="od">
-            <input type="number" id="a" placeholder="do">
-            <br>
-            <input type="number" id="d" placeholder="g/h"> 
-            <input type="number" id="a" placeholder="Węglowodany">
-            <hr class="hrg">
-            <input type="text" id="wrazliwosc" placeholder="wrazliwosc" disabled="disabled" />
-            
-            
-            <hr>
-            <button type="button" onclick="Calculate_Bolus(this.innerHTML)">Oblicz</button>
-        </from>
-    </div>
+    <a href="licnik procentow auto/index.html"><button>Automatyczny Licznik Procętów</button></a>
+    <a href="licznik procentow renczny/index.html"><button>Ręczny Licznik Procętów</button></a>
+    <a href="kalkulator bolusa/index.html"><button>Kalkulator Bolusa</button></a>
 </body>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <title>licznik Procętów</title>
+</head>
+<body class="center">
+    <div name="Licznik procętów">
+        <form id="Kalkulator">
+        <h3>Węglowodany:</h3>
+        <input type="number" id="w1" placeholder="Węglowodany"/>
+        <input type="number" id="rw" placeholder="wynik" disabled="disabled"/>
+        <h3>Białko:</h3>
+        <input type="number" id="b1" placeholder="Białko"/>
+        <input type="number" id="rb" placeholder="wynik" disabled="disabled" />
+        <h3>Tłuszcz:</h3>
+        <input type="number" id="t1" placeholder="Tłuszcz"/>
+        <input type="number" id="rt" placeholder="wynik" disabled="disabled" />
+        <h3>wynik:</h3>
+        <button class="operator" type="button" onclick="Calculate(this.innerHTML)">Wynik</button>
+        <input type="number" id="kcal" placeholder="Kalorie" />
+    </form>
+    </div>
+</body>
+</html>
