@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calculator_46872.ico">
     <script type="text/javascript" src="app.js"></script>
-    <title>Kalkulator Blousa</title>
+    <title>Kalkulator Bolusa</title>
 </head>
 <body class="center">
     <div name="bolus">
@@ -15,11 +16,13 @@
             <input type="number" id="cukier" placeholder="Aktualny cukier">
             <h5>współczynnniki węglowodanowe</h5>
             <p><input type="number" id="g/h" placeholder="g/h z aktualnej godziny"></p>
-            <input type="number" id="22" placeholder="Węglowodany">
+            <input type="number" id="wenglowodany" placeholder="Węglowodany">
             <hr class="hrg">
             <p>Twoja wrażliwość Wynosi: <input type="text" id="wrazliwosc" placeholder="wrazliwosc" disabled="disabled" /></p>
-            <p>Potrzebujesz <input type="text" id="insulina" placeholder="insulina" disabled="disabled" /> jednost<b>ki/ek</b></p>
-            
+            <p>Potrzebujesz na korektę <input type="text" id="insulina" placeholder="insulina na korektę" disabled="disabled" /> jednost<b>ki/ek</b></p>
+            <p>Potrzebujesz na posiłek <input type="text" id="posilek" placeholder="insulina na posiłek" disabled="disabled" /> jednost<b>ki/ek</b></p>
+            <p>Potrzebujesz <input type="text" id="insulina_ogolna" placeholder="insulina łączna" disabled="disabled" /> jednost<b>ki/ek</b> ogółem</p>
+
             <hr>
             <button type="button" onclick="Calculate(this.innerHTML)">Oblicz</button>
             <br>
